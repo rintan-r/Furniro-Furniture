@@ -1,0 +1,52 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL") // connect ke Supabase
+}
+
+model ProductDetail {
+  id                 String    @id @default(uuid())
+  title              String
+  shortDescription   String?
+  detailDescription  String?
+  description        String?
+  price              Int
+  originalPrice      Int?
+  discount           Int?
+  isNew              Boolean   @default(false)
+  images             String[]   // array of image URLs or IDs
+  size               String[]   // e.g. ["Single", "Set of 2"]
+  color              String[]   // e.g. ["Red", "Blue"]
+  SKU                String     @unique
+  category           String
+  tags               String[]   // e.g. ["outdoor", "bar", "table"]
+
+  // extra info
+  material           String?
+  warranty           String?
+  origin             String?
+
+  reviews            Review[]
+
+  createdAt          DateTime  @default(now())
+
+  @@map("product_detail") // map ke tabel Supabase
+}
+
+model Review {
+  id        String         @id @default(uuid())
+  user      String
+  rating    Int
+  comment   String
+
+  // Foreign key → cascade kalau product kehapus
+  product   ProductDetail  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String
+
+  @@map("reviews") // map ke tabel Supabase
+}
