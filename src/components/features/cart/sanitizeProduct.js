@@ -5,6 +5,6 @@ export function sanitizeProduct(product) {
     price: product.price,
     originalPrice: product.originalPrice,
     image: product.images?.[0] || null,
-    quantity: 1, // default pertama kali masuk cart
+    quantity: 1,
   }
 }
