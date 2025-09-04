@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux'
 import { removeFromCart } from './cartSlice'
+import Image from 'next/image'
 
 export default function CartItem ({ item }) {
   const dispatch = useDispatch()
@@ -24,7 +25,7 @@ export default function CartItem ({ item }) {
         className='text-red-500 text-sm'
         onClick={() => dispatch(removeFromCart(item.id))}
       >
-        Remove
+          <Image src='/icons/close.svg' alt='User Icon' width={30} height={30} />
       </button>
     </div>
   )

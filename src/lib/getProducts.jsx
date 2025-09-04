@@ -25,7 +25,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -35,7 +35,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -45,7 +45,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -55,7 +55,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -65,7 +65,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -75,7 +75,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -85,7 +85,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -95,7 +95,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -105,7 +105,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -115,7 +115,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -125,7 +125,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -135,7 +135,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -145,7 +145,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -155,7 +155,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -165,7 +165,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -175,7 +175,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -185,7 +185,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -195,7 +195,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -205,7 +205,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -215,7 +215,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -225,7 +225,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -235,7 +235,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -245,7 +245,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -255,7 +255,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -265,7 +265,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -275,7 +275,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -285,7 +285,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -295,7 +295,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -305,7 +305,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -315,7 +315,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -325,7 +325,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -335,7 +335,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -345,7 +345,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -355,7 +355,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -365,7 +365,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -375,7 +375,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -385,7 +385,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -395,7 +395,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -405,7 +405,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -415,7 +415,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -425,7 +425,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -435,7 +435,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -445,7 +445,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -455,7 +455,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -465,7 +465,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -475,7 +475,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -485,7 +485,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -495,7 +495,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -505,7 +505,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -515,7 +515,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -525,7 +525,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -535,7 +535,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -545,7 +545,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -555,7 +555,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -565,7 +565,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -575,7 +575,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -585,7 +585,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -595,7 +595,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -605,7 +605,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -615,7 +615,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -625,7 +625,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -635,7 +635,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -645,7 +645,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -655,7 +655,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -665,7 +665,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -675,7 +675,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -685,7 +685,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -695,7 +695,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -705,7 +705,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -715,7 +715,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -725,7 +725,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -735,7 +735,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -745,7 +745,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -755,7 +755,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -765,7 +765,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -775,7 +775,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -785,7 +785,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -795,7 +795,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -805,7 +805,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -815,7 +815,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -825,7 +825,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -835,7 +835,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -845,7 +845,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -855,7 +855,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -865,7 +865,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -875,7 +875,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -885,7 +885,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -895,7 +895,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -905,7 +905,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -915,7 +915,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -925,7 +925,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -935,7 +935,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -945,7 +945,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -955,7 +955,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -965,7 +965,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -975,7 +975,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -985,7 +985,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -995,7 +995,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1005,7 +1005,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1015,7 +1015,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1025,7 +1025,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1035,7 +1035,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1045,7 +1045,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1055,7 +1055,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1065,7 +1065,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1075,7 +1075,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1085,7 +1085,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1095,7 +1095,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1105,7 +1105,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1115,7 +1115,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1125,7 +1125,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1135,7 +1135,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1145,7 +1145,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1155,7 +1155,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1165,7 +1165,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1175,7 +1175,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1185,7 +1185,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1195,7 +1195,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1205,7 +1205,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1215,7 +1215,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1225,7 +1225,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1235,7 +1235,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1245,7 +1245,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1255,7 +1255,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1265,7 +1265,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1275,7 +1275,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1285,7 +1285,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1295,7 +1295,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1305,7 +1305,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1315,7 +1315,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1325,7 +1325,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1335,7 +1335,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1345,7 +1345,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1355,7 +1355,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1365,7 +1365,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1375,7 +1375,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1385,7 +1385,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1395,7 +1395,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1405,7 +1405,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1415,7 +1415,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1425,7 +1425,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1435,7 +1435,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1445,7 +1445,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1455,7 +1455,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1465,7 +1465,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1475,7 +1475,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1485,7 +1485,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1495,7 +1495,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1505,7 +1505,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1515,7 +1515,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1525,7 +1525,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1535,7 +1535,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1545,7 +1545,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1555,7 +1555,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1565,7 +1565,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1575,7 +1575,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1585,7 +1585,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1595,7 +1595,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1605,7 +1605,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1615,7 +1615,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1625,7 +1625,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1635,7 +1635,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1645,7 +1645,7 @@ export default async function getProducts () {
       shortDescription: 'Outdoor bar table and stool',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/respira.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967434/respira_e6olic.png',
       discount: null,
       isNew: true
     }),
@@ -1655,7 +1655,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1665,7 +1665,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1675,7 +1675,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1685,7 +1685,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1695,7 +1695,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1705,7 +1705,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1715,7 +1715,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1725,7 +1725,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1735,7 +1735,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1745,7 +1745,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1755,7 +1755,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1765,7 +1765,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1775,7 +1775,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1785,7 +1785,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1795,7 +1795,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1805,7 +1805,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1815,7 +1815,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1825,7 +1825,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1835,7 +1835,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1845,7 +1845,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1855,7 +1855,7 @@ export default async function getProducts () {
       shortDescription: 'Luxury big sofa',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/lolito.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967485/lolito_mpdmqn.png',
       discount: 50,
       isNew: false
     }),
@@ -1865,7 +1865,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -1875,7 +1875,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1885,7 +1885,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1895,7 +1895,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: 3500000,
-      image: '/images/products/syltherine.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967573/syltherine_j6gupl.png',
       discount: 30,
       isNew: false
     }),
@@ -1905,7 +1905,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1915,7 +1915,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1925,7 +1925,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1935,7 +1935,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1945,7 +1945,7 @@ export default async function getProducts () {
       shortDescription: 'Night lamp',
       price: 1500000,
       originalPrice: null,
-      image: '/images/products/grifo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967387/grifo_u4c1vc.png',
       discount: null,
       isNew: false
     }),
@@ -1955,7 +1955,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),
@@ -1965,7 +1965,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1975,7 +1975,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -1985,7 +1985,7 @@ export default async function getProducts () {
       shortDescription: 'Minimalist flower pot',
       price: 500000,
       originalPrice: null,
-      image: '/images/products/potty.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967169/potty_ilsz8t.png',
       discount: null,
       isNew: true
     }),
@@ -1995,7 +1995,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -2005,7 +2005,7 @@ export default async function getProducts () {
       shortDescription: 'Cute bed set',
       price: 7000000,
       originalPrice: 14000000,
-      image: '/images/products/pingky.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967215/pingky_detavz.png',
       discount: 50,
       isNew: false
     }),
@@ -2015,7 +2015,7 @@ export default async function getProducts () {
       shortDescription: 'Small mug',
       price: 150000,
       originalPrice: null,
-      image: '/images/products/muggo.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967274/muggo_jzj3qf.png',
       discount: null,
       isNew: true
     }),
@@ -2025,7 +2025,7 @@ export default async function getProducts () {
       shortDescription: 'Stylish cafe chair',
       price: 2500000,
       originalPrice: null,
-      image: '/images/products/leviosa.png',
+      image: 'https://res.cloudinary.com/dvsgc0qcw/image/upload/v1756967524/leviosa_gh9o63.png',
       discount: null,
       isNew: false
     }),

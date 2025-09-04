@@ -1,8 +1,13 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import CartDrawer from '../features/cart/CartDrawer'
+import { useState } from 'react'
 
 export default function Navbar () {
+  const [isCartOpen, setIsCartOpen] = useState(false)
+
   return (
     <nav className='w-full pr-[54px] pl-[100px] pt-[29px] pb-[30px] flex flex-row justify-between'>
       {/* Logo Section */}
@@ -46,11 +51,14 @@ export default function Navbar () {
             height={28}
           />
         </button>
-        <button>
+        <button onClick={() => setIsCartOpen(true)}>
           {/* <CartIcon /> */}
           <Image src='/icons/cart.svg' alt='User Icon' width={28} height={28} />
         </button>
       </div>
+
+      {/* <CartDrawer /> */}
+      <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
     </nav>
   )
 }
