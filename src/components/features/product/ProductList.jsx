@@ -1,4 +1,4 @@
-import getProducts from '@/src/lib/getProducts'
+import getProducts from '@/src/lib/api/getProducts'
 import ProductCard from '@/src/components/features/product/ProductCard'
 import Button from '@/src/components/ui/Button'
 

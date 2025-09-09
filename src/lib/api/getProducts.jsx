@@ -1,4 +1,4 @@
-import { slugify } from "./slugify";
+import { slugify } from "../utils/slugify";
 
 class Product {
     constructor({ id, title, shortDescription, price, image, isNew, originalPrice, discount}) {

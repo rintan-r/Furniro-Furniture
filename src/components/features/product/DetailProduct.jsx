@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { getProductDetail } from '@/src/lib/getProductDetail.js'
+import { getProductDetail } from '@/src/lib/api/getProductDetail'
 import AddToCartButton from '../cart/AddToCartButton'
 
 export default async function DetailProduct ({ id }) {

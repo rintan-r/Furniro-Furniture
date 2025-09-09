@@ -6,7 +6,12 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:merge": "node prisma/mergeSchemas.js",
+    "prisma:generate": "npm run prisma:merge && npx prisma generate",
+    "prisma:migrate:dev": "npm run prisma:merge && npx prisma migrate dev --name split-schema",
+    "prisma:seed": "node prisma/seeds/index.js"
+
   },
   "prisma": {
     "seed": "node prisma/seed.js"
@@ -14,6 +19,7 @@
   "dependencies": {
     "@prisma/client": "^6.14.0",
     "@reduxjs/toolkit": "^2.8.2",
+    "@supabase/supabase-js": "^2.57.2",
     "@tailwindcss/postcss": "^4.1.11",
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.7.0",
@@ -31,6 +37,9 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.4.1"
-  }
+    "eslint-config-next": "15.4.1",
+    "prisma-merge": "^0.2.0",
+    "supabase": "^2.39.2"
+  },
+  "type": "module"
 }

@@ -1,0 +1,12 @@
+model Review {
+  id        String         @id @default(uuid())
+  user      String
+  rating    Int
+  comment   String
+
+  // Foreign key → cascade kalau product kehapus
+  product   ProductDetail  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String
+
+  @@map("reviews") // map ke tabel Supabase
+}

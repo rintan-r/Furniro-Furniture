@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import furniroFurniture from '@/src/lib/getFurniroFurniture'
+import furniroFurniture from '@/src/lib/api/getFurniroFurniture'
 import styles from './FurniroFurniture.module.css'
 
 export default function FurniroFurniture () {

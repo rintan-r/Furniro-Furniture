@@ -1,4 +1,4 @@
-import prisma from './prisma'
+import prisma from '../prisma.js'
 
 export async function getProductDetail(id) {
   return await prisma.productDetail.findUnique({
