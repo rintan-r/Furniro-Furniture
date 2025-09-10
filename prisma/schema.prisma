@@ -1,52 +1,89 @@
-// prisma/schema.prisma
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL") // connect to Supabase
+  url      = env("DATABASE_URL")
 }
+
+
+enum DiscountType {
+  PERCENTAGE
+  AMOUNT
+}
+
 
 model ProductDetail {
-  id                 String    @id @default(uuid())
-  title              String
-  shortDescription   String?
-  detailDescription  String?
-  description        String?
-  price              Int
-  originalPrice      Int?
-  discount           Int?
-  isNew              Boolean   @default(false)
-  images             String[]   // array of image URLs or IDs
-  size               String[]   // e.g. ["Single", "Set of 2"]
-  color              String[]   // e.g. ["Red", "Blue"]
-  SKU                String     @unique
-  category           String
-  tags               String[]   // e.g. ["outdoor", "bar", "table"]
+  id        String    @id @default(uuid())
+  SKU       String    @unique
+  category  String
+  tags      String[]
+  material  String?
+  warranty  String?
+  origin    String?
+  createdAt DateTime  @default(now())
 
-  // extra info
-  material           String?
-  warranty           String?
-  origin             String?
+  productId String   @unique
+  product   Product  @relation(fields: [productId], references: [id])
+  reviews   Review[]
 
-  reviews            Review[]
-
-  createdAt          DateTime  @default(now())
-
-  @@map("product_detail") // map ke tabel Supabase
+  @@map("product_detail")
 }
 
+
+model ProductVariant {
+  id          String   @id @default(uuid())
+  color       String?
+  size        String?
+  images      String[]
+  
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
+}
+
+
+model Product {
+  id               String          @id @default(uuid())
+  title            String
+  shortDescription String?         // buat card/listing
+  description      String?         // glimpse di detail page
+  longDescription  String?         // tab deskripsi panjang
+  price            Decimal         @db.Decimal(10,2)
+  originalPrice    Decimal?        @db.Decimal(10,2)
+  image            String?         // thumbnail
+  discountType     DiscountType?   // % atau nominal
+  discountValue    Decimal?        @db.Decimal(10,2)
+  isNew            Boolean         @default(false)
+
+  // relasi
+  detail           ProductDetail?
+  variants         ProductVariant[]
+}
+
+
 model Review {
-  id        String         @id @default(uuid())
-  user      String
-  rating    Int
-  comment   String
+  id              String         @id @default(uuid())
+  rating          Int
+  comment         String
+  createdAt       DateTime       @default(now())
 
-  // Foreign key → cascade kalau product kehapus
-  product   ProductDetail  @relation(fields: [productId], references: [id], onDelete: Cascade)
-  productId String
+  // relasi ke user (harus ada tabel User)
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
 
-  @@map("reviews") // map ke tabel Supabase
+  // relasi ke product detail
+  productDetailId String
+  productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
+
+  @@map("reviews")
+}
+
+
+model User {
+  id       String    @id @default(uuid())
+  name     String
+  email    String    @unique
+  password String    // hashed password
+  reviews  Review[]
 }

@@ -1,28 +1,16 @@
 model ProductDetail {
-  id                 String    @id @default(uuid())
-  title              String
-  shortDescription   String?
-  detailDescription  String?
-  description        String?
-  price              Int
-  originalPrice      Int?
-  discount           Int?
-  isNew              Boolean   @default(false)
-  images             String[]   // array of image URLs or IDs
-  size               String[]   // e.g. ["Single", "Set of 2"]
-  color              String[]   // e.g. ["Red", "Blue"]
-  SKU                String     @unique
-  category           String
-  tags               String[]   // e.g. ["outdoor", "bar", "table"]
+  id        String    @id @default(uuid())
+  SKU       String    @unique
+  category  String
+  tags      String[]
+  material  String?
+  warranty  String?
+  origin    String?
+  createdAt DateTime  @default(now())
 
-  // extra info
-  material           String?
-  warranty           String?
-  origin             String?
+  productId String   @unique
+  product   Product  @relation(fields: [productId], references: [id])
+  reviews   Review[]
 
-  reviews            Review[]
-
-  createdAt          DateTime  @default(now())
-
-  @@map("product_detail") // map ke tabel Supabase
+  @@map("product_detail")
 }

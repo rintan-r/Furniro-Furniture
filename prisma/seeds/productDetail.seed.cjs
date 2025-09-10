@@ -2,7 +2,7 @@
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
-const productsData = require('../src/lib/data/productsDetail.cjs');
+const productsData = require('../../src/lib/data/productsDetail.cjs');
 
 async function main() {
   console.log("Found", Object.keys(productsData).length, "products in productsData");
