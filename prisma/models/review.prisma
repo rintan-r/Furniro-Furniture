@@ -4,7 +4,7 @@ model Review {
   comment         String
   createdAt       DateTime       @default(now())
 
-  // relasi ke user (harus ada tabel User)
+// relasi ke user
   userId          String
   user            User           @relation(fields: [userId], references: [id])
 
@@ -12,5 +12,5 @@ model Review {
   productDetailId String
   productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
 
-  @@map("reviews")
+  @@map("Reviews")
 }

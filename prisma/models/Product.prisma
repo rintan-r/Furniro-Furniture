@@ -1,9 +1,7 @@
 model Product {
-  id               String          @id @default(uuid())
+  id               String @id
   title            String
   shortDescription String?         // buat card/listing
-  description      String?         // glimpse di detail page
-  longDescription  String?         // tab deskripsi panjang
   price            Decimal         @db.Decimal(10,2)
   originalPrice    Decimal?        @db.Decimal(10,2)
   image            String?         // thumbnail

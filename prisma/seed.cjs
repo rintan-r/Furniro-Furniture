@@ -12,14 +12,14 @@ async function runSeeder(name, seeder) {
 }
 
 // import seeder modular
-const productSeeder = require('./seeds/products.seed.cjs');
-const productDetailSeeder = require('./seeds/productDetail.seed.cjs');
-// const userSeeder = require('./seeds/user.seed'); // contoh tambahan
+const productSeeder = require('./seeds/Product.seed.cjs');
+const productDetailSeeder = require('./seeds/ProductDetail.seed.cjs');
+const userSeeder = require('./seeds/User.seed.cjs');
 
 async function main() {
-  await runSeeder("Products", productSeeder);
+  await runSeeder("Product", productSeeder);
   await runSeeder("ProductDetail", productDetailSeeder);
-  // await runSeeder("Users", userSeeder);
+  await runSeeder("User", userSeeder);
 }
 
 main()

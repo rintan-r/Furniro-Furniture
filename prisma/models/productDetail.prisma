@@ -1,16 +1,19 @@
 model ProductDetail {
-  id        String    @id @default(uuid())
-  SKU       String    @unique
-  category  String
-  tags      String[]
-  material  String?
-  warranty  String?
-  origin    String?
-  createdAt DateTime  @default(now())
+  description       String?         // glimpse di detail page
+  longDescription   String?         // tab deskripsi panjang
+  images            String[]
+  size              String[]
+  SKU               String    @unique
+  category          String
+  tags              String[]
+  material          String?
+  warranty          String?
+  origin            String?
+  createdAt         DateTime  @default(now())
 
-  productId String   @unique
-  product   Product  @relation(fields: [productId], references: [id])
-  reviews   Review[]
+  id                String   @id @default(uuid())
+  product           Product  @relation(fields: [id], references: [id])
+  reviews           Review[]
 
-  @@map("product_detail")
+  @@map("ProductDetail")
 }

@@ -8,47 +8,17 @@ datasource db {
 }
 
 
+
 enum DiscountType {
   PERCENTAGE
   AMOUNT
 }
 
 
-model ProductDetail {
-  id        String    @id @default(uuid())
-  SKU       String    @unique
-  category  String
-  tags      String[]
-  material  String?
-  warranty  String?
-  origin    String?
-  createdAt DateTime  @default(now())
-
-  productId String   @unique
-  product   Product  @relation(fields: [productId], references: [id])
-  reviews   Review[]
-
-  @@map("product_detail")
-}
-
-
-model ProductVariant {
-  id          String   @id @default(uuid())
-  color       String?
-  size        String?
-  images      String[]
-  
-  productId   String
-  product     Product  @relation(fields: [productId], references: [id])
-}
-
-
 model Product {
-  id               String          @id @default(uuid())
+  id               String @id
   title            String
   shortDescription String?         // buat card/listing
-  description      String?         // glimpse di detail page
-  longDescription  String?         // tab deskripsi panjang
   price            Decimal         @db.Decimal(10,2)
   originalPrice    Decimal?        @db.Decimal(10,2)
   image            String?         // thumbnail
@@ -62,13 +32,34 @@ model Product {
 }
 
 
+model ProductDetail {
+  description       String?         // glimpse di detail page
+  longDescription   String?         // tab deskripsi panjang
+  images            String[]
+  size              String[]
+  SKU               String    @unique
+  category          String
+  tags              String[]
+  material          String?
+  warranty          String?
+  origin            String?
+  createdAt         DateTime  @default(now())
+
+  id                String   @id @default(uuid())
+  product           Product  @relation(fields: [id], references: [id])
+  reviews           Review[]
+
+  @@map("ProductDetail")
+}
+
+
 model Review {
   id              String         @id @default(uuid())
   rating          Int
   comment         String
   createdAt       DateTime       @default(now())
 
-  // relasi ke user (harus ada tabel User)
+// relasi ke user
   userId          String
   user            User           @relation(fields: [userId], references: [id])
 
@@ -76,7 +67,7 @@ model Review {
   productDetailId String
   productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
 
-  @@map("reviews")
+  @@map("Reviews")
 }
 
 
@@ -86,4 +77,15 @@ model User {
   email    String    @unique
   password String    // hashed password
   reviews  Review[]
+}
+
+
+model ProductVariant {
+  id          String   @id @default(uuid())
+  color       String?
+  size        String?
+  images      String[]
+  
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
 }
