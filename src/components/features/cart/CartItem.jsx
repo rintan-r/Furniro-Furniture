@@ -16,7 +16,7 @@ export default function CartItem ({ item }) {
       <div className='flex-1'>
         <h3 className='font-medium'>{item.title}</h3>
         <p className='text-sm text-gray-600'>
-          Rp {item.price.toLocaleString()}
+          Rp {item.price}
         </p>
         <p className='text-sm'>Qty: {item.quantity}</p>
       </div>

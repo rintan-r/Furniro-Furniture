@@ -17,16 +17,17 @@ module.exports = async function productDetailSeeder (prisma) {
     await prisma.ProductDetail.create({
       data: {
         id: product.id,
+        longDescription: product.longDescription || null,
         description: product.description || null,
-        longDescription: product.detailDescription || null,
         images: product.images || [],
         size: product.size || [],
+        color: product.color || [],
         SKU: product.SKU || null,
         category: product.category || null,
         tags: product.tags || [],
-        material: product.additionalInformation?.material || null,
-        warranty: product.additionalInformation?.warranty || null,
-        origin: product.additionalInformation?.origin || null,
+        material: product.material || null,
+        warranty: product.warranty || null,
+        origin: product.origin || null,
       }
     })
 

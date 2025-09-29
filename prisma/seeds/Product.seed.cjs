@@ -5,6 +5,7 @@ module.exports = async function productSeeder (prisma) {
 //  console.log("Found", Object.keys(productsData).length, "products in productsData");
 
   // Hapus semua dulu biar fresh
+  await prisma.productDetail.deleteMany();
   await prisma.product.deleteMany();
 
   const products = Object.values(productsData);

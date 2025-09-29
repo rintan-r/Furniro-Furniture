@@ -12,7 +12,7 @@ model ProductDetail {
   createdAt         DateTime  @default(now())
 
   id                String   @id @default(uuid())
-  product           Product  @relation(fields: [id], references: [id])
+  product           Product  @relation(fields: [id], references: [id], onDelete: Cascade)
   reviews           Review[]
 
   @@map("ProductDetail")
