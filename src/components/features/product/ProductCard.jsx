@@ -1,5 +1,6 @@
 'use client'
 
+import { DiscountType } from '@prisma/client'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -10,7 +11,7 @@ export default function ProductCard ({
   price,
   originalPrice,
   isNew,
-  discount,
+  discountValue,
   image,
   slug,
 }) {
@@ -30,9 +31,9 @@ export default function ProductCard ({
           />
 
           {/* Badge Discount */}
-          {discount !== null && (
+          {discountValue !== null && (
             <span className='absolute w-12 h-12 flex items-center justify-center top-4 right-4 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded-full z-10'>
-              {discount}%
+              {discountValue}%
             </span>
           )}
 

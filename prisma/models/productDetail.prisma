@@ -1,0 +1,19 @@
+model ProductDetail {
+  description       String?         // glimpse di detail page
+  longDescription   String?         // tab deskripsi panjang
+  images            String[]
+  size              String[]
+  SKU               String    @unique
+  category          String
+  tags              String[]
+  material          String?
+  warranty          String?
+  origin            String?
+  createdAt         DateTime  @default(now())
+
+  id                String   @id @default(uuid())
+  product           Product  @relation(fields: [id], references: [id], onDelete: Cascade)
+  reviews           Review[]
+
+  @@map("ProductDetail")
+}

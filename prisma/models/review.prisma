@@ -1,0 +1,16 @@
+model Review {
+  id              String         @id @default(uuid())
+  rating          Int
+  comment         String
+  createdAt       DateTime       @default(now())
+
+// relasi ke user
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
+
+  // relasi ke product detail
+  productDetailId String
+  productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
+
+  @@map("Reviews")
+}

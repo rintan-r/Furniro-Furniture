@@ -1,4 +1,4 @@
-import getCategories from "@/src/lib/getCategories";
+import getCategories from "@/src/lib/api/getCategories";
 import CategoryCard from "@/src/components/features/category/CategoryCard";
 
 export default async function CategoryList() {
