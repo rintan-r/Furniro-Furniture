@@ -25,7 +25,6 @@ const slug = (title, description) => {
 }
 
 export default function ProductsList ({ productsPerPage }) {
-  // const products = await getProduct() 
   const { loading, error, data } = useQuery(GET_PRODUCTS);
 
   if (loading) return <p>Loading...</p>;
@@ -44,7 +43,7 @@ export default function ProductsList ({ productsPerPage }) {
       </div>
       <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
         {data.products.slice(0, productsPerPage).map(product => (
-          console.log("Product :", product),
+          //console.log("Product :", product),
           <ProductCard
             key={product.id}
             id={product.id}
@@ -58,23 +57,6 @@ export default function ProductsList ({ productsPerPage }) {
             image={product.image}
             />
         ))}
-        {/*
-        {products.slice(0, productsPerPage).map(product => (
-          <ProductCard
-            key={product.id}
-            id={product.id}
-            title={product.title}
-            description={product.shortDescription}
-            price={product.price}
-            originalPrice={product.originalPrice}
-            isNew={product.isNew}
-            discount={product.discount}
-            image={product.image}
-            slug={product.slug}
-          />
-        ))}
-
-        */}
       </div>
       <Button className={Button({ variant: 'outline', size: 'lg' })}>
         Click Me

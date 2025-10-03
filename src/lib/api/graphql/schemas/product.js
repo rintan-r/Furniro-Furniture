@@ -10,6 +10,7 @@ type Product {
     image: String   # thumbnail, ambil dari ProductDetail.images[0]
     discountValue: Float
     isNew: Boolean
+    detail: ProductDetail
 }
 
 extend type Query {

@@ -13,7 +13,7 @@ export default async function ProductDetailPage({ params }) {
     <section>
       <Header />
       <Breadcrumbs />
-      <DetailProduct slug={slug} id={id}/>
+      <DetailProduct id={id}/>
       <ProductsList productsPerPage={4} />
     </section>
   )
