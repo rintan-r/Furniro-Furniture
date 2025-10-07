@@ -4,7 +4,7 @@ export function sanitizeProduct(product) {
     title: product.title,
     price: product.price,
     originalPrice: product.originalPrice,
-    image: product.images?.[0] || null,
+    image: product.detail.images?.[0] || null,
     quantity: 1,
   }
 }

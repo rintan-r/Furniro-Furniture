@@ -6,10 +6,10 @@ import { sanitizeProduct } from "./sanitizeProduct"
 
 export default function AddToCartButton({ product }) {
   const dispatch = useDispatch()
-
+  
   const handleAddToCart = () => {
     const cartProduct = sanitizeProduct(product)
-    dispatch(addToCart(cartProduct)) 
+    dispatch(addToCart(cartProduct))   
     console.log(JSON.stringify(cartProduct, null, 2));
   }
 

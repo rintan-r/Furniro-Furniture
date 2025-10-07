@@ -1,6 +1,5 @@
 'use client'
 
-import { DiscountType } from '@prisma/client'
 import Image from 'next/image'
 import Link from 'next/link'
 
