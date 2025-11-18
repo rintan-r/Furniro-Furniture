@@ -1,0 +1,396 @@
+/* -----------------------------------
+   TYPOGRAPHY UTILITY CLASSES
+   Based on Poppins & Montserrat Mapping
+----------------------------------- */
+
+/* ===== 12px ===== */
+@utility text-poppins-12-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xs);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+@utility text-poppins-12-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xs);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* ===== 13px ===== */
+
+/* Used for : "shortDescription in detail product*/
+@utility text-poppins-13-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-sm);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+
+/* ===== 14px ===== */
+
+/* Used for : "input newsletter*/
+@utility text-poppins-14-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-md);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+/* Used for : "input placeholder newsletter*/
+@utility text-poppins-14-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-md);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+@utility text-poppins-14-semibold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-md);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-126);
+}
+
+/* ===== 15px ===== */
+@utility text-poppins-15-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-lg);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-150);
+}
+
+/* ===== 16px ===== */
+
+/* Used for : "Breadcrumbs Default Label */
+@utility text-poppins-16-light {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-light);
+  line-height: normal;
+}
+
+/* Used for : "adress in footer
+  Result text in Product Toolbar
+  p in contact
+  contact info
+*/
+@utility text-poppins-16-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+@utility text-poppins-16-regular-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-150);
+}
+
+/* Used for : Navigation Item,
+Breadcrumbs active Label
+Links in Footer 
+Input Label in Contact Form
+*/
+@utility text-poppins-16-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* Used for :
+"Discount on Product Card,
+Short Description on Product Card,
+originalPrice on Product Card
+p in Inspirations section
+p in carousel
+*/
+@utility text-poppins-16-medium-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-150);
+}
+
+/* Used for : "
+New Arival" Text in Hero section,
+Outline Button Label
+*/
+@utility text-poppins-16-semibold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-semibold);
+  line-height: normal;
+}
+@utility text-poppins-16-semibold-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-150);
+}
+
+/* Used for :"CTA Primary Label
+              h2 in Hero section sm
+*/
+@utility text-poppins-16-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== 18px ===== */
+
+/* Used for : "p in Hero section */
+@utility text-poppins-18-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-2xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* ===== 20px ===== */
+@utility text-poppins-20-light {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-light);
+  line-height: normal;
+}
+
+/* Used for : "p in category list,
+Filter Text in Product Toolbar label
+Input placeholder in Product Toolbar
+*/
+@utility text-poppins-20-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+@utility text-poppins-20-regular-126 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-126);
+}
+
+/* Used for : "Subtitle in USP */
+@utility text-poppins-20-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+@utility text-poppins-20-medium-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-150);
+}
+
+/* Used for : "Current Price Product Card */
+@utility text-poppins-20-semibold-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-150);
+}
+
+/* Used for : "Current Price Product Card
+              h2 in hero section md
+*/
+@utility text-poppins-20-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-3xl);
+  font-weight: var(--font-bold);
+}
+
+/* ===== 24px ===== */
+@utility text-poppins-24-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+
+/* Used for : "
+Contact Info Label in contact info,
+price in detail product page*/
+@utility text-poppins-24-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+@utility text-poppins-24-medium-126 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-126);
+}
+
+/* Used for : "Category Title */
+@utility text-poppins-24-semibold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-semibold);
+  line-height: normal;
+}
+
+/* Used for : "Card Title */
+@utility text-poppins-24-semibold-120 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-120);
+}
+@utility text-poppins-24-semibold-126 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-126);
+}
+
+/* Used for : "Logo in footer */
+@utility text-poppins-24-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-4xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== 25px ===== */
+
+/* Used for : "Title in USP */
+@utility text-poppins-25-semibold-150 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-5xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-150);
+}
+
+/* ===== 28px ===== */
+@utility text-poppins-28-medium-126 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-6xl);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-126);
+}
+
+/* Used for : "Carousel Title */
+@utility text-poppins-28-semibold-120 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-6xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-120);
+}
+
+/* ===== 30px ===== */
+@utility text-poppins-30-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-7xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* ===== 30px ===== */
+@utility text-poppins-30-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-7xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== 32px ===== */
+@utility text-poppins-32-semibold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-8xl);
+  font-weight: var(--font-semibold);
+  line-height: normal;
+}
+
+/* Used for : "h2 in Category List */
+@utility text-poppins-32-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-8xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== 36px ===== */
+@utility text-poppins-36-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-10xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* Used for : "H1 in Contact */
+@utility text-poppins-36-semibold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-10xl);
+  font-weight: var(--font-semibold);
+  line-height: normal;
+}
+
+/* Used for : "H1 in hero section sm */
+@utility text-poppins-36-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-10xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== 40px ===== */
+
+/* Used for : "H2 in Product List 
+               Inspiration in Home
+               H1 in hero section md
+               Title in Furniro Furniture Section
+*/
+@utility text-poppins-40-bold-120 {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-11xl);
+  font-weight: var(--font-bold);
+  line-height: var(--leading-120);
+}
+
+/* ===== 42px ===== */
+
+/* Used for : "H1 in Detail Product Page */
+@utility text-poppins-42-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-12xl);
+  font-weight: var(--font-regular);
+  line-height: normal;
+}
+
+/* ===== 48px ===== */
+
+/* Used for : "H1 in Header */
+@utility text-poppins-48-medium {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-13xl);
+  font-weight: var(--font-medium);
+  line-height: normal;
+}
+
+/* ===== 52px ===== */
+
+/* Used for : "H1 in Hero Section */
+@utility text-poppins-52-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--text-body-14xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}
+
+/* ===== Montserrat 34px ===== */
+
+/* Used for : Furniro Logo */
+@utility text-montserrat-34-bold {
+  font-family: var(--font-montserrat);
+  font-size: var(--text-body-9xl);
+  font-weight: var(--font-bold);
+  line-height: normal;
+}

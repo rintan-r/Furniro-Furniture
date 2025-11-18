@@ -15,7 +15,7 @@ export default function USP () {
     {
       icon: '/icons/shipping.svg',
       title: 'Free Shipping',
-      subtitle: 'Order over 150 $'
+      subtitle: 'Order over $150'
     },
     {
       icon: '/icons/customer-support.svg',
@@ -25,14 +25,14 @@ export default function USP () {
   ]
 
   return (
-    <aside className='px-[100px] py-[53px]'>
-      <div className='flex flex-row gap-8 justify-between'>
+    <aside className='px-[100px] py-[53px] bg-[#FAF3EA]'>
+      <div className='flex flex-col lg:flex-row gap-8 justify-between'>
         {benefits.map((item, index) => (
-          <div key={index} className='flex flex-row items-center gap-[10px]'>
+          <div key={index} className='flex flex-col xl:flex-row items-center gap-[10px]'>
             <img src={item.icon} alt={item.title} className='w-12 h-12' />
             <div className='flex flex-col px-[5px]'>
-              <div className='font-semibold'>{item.title}</div>
-              <div className='text-gray-500 text-sm'>{item.subtitle}</div>
+              <div className='text-poppins-20-semibold-150 xl:text-poppins-25-semibold-150 text-center xl:text-left'>{item.title}</div>
+              <div className='text-poppins-16-medium xl:text-poppins-20-medium text-gray-500 text-center xl:text-left'>{item.subtitle}</div>
             </div>
           </div>
         ))}

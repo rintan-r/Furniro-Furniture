@@ -14,7 +14,9 @@ export default function AddToCartButton({ product }) {
   }
 
   return (
-    <Button onClick={handleAddToCart} variant="cart" size="md">
+    <Button onClick={handleAddToCart}
+    variant="secondary"
+    className='px-12 py-[17px]'>
       Add to Cart
     </Button>
   )

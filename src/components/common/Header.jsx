@@ -15,8 +15,8 @@ export default function Header () {
     
       />
       <div className='absolute flex flex-col items-center'>
-        <h4>Shop</h4>
-        <Breadcrumbs />
+        <h2 className='text-poppins-48-medium'>Shop</h2>
+        <Breadcrumbs variant='transparent' />
       </div>
     </header>
   )

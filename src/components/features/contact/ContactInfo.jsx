@@ -12,8 +12,8 @@ export default function ContactInfo () {
           height={28}
         />
         <div>
-          <h2 className='font-semibold text-lg'>Address</h2>
-          <p className='text-sm text-gray-700'>
+          <h2 className='text-poppins-24-medium'>Address</h2>
+          <p className='text-poppins-16-regular text-gray-700'>
             236 5th SE Avenue, New York NY10000, United States
           </p>
         </div>
@@ -28,9 +28,9 @@ export default function ContactInfo () {
           height={28}
         />
         <div>
-          <h2 className='font-semibold text-lg'>Phone</h2>
-          <p className='text-sm text-gray-700'>Mobile: +(84) 546-6789</p>
-          <p className='text-sm text-gray-700'>Hotline: +(84) 456-6789</p>
+          <h2 className='text-poppins-24-medium'>Phone</h2>
+          <p className='text-poppins-16-regular text-gray-700'>Mobile: +(84) 546-6789</p>
+          <p className='text-poppins-16-regular text-gray-700'>Hotline: +(84) 456-6789</p>
         </div>
       </article>
 
@@ -43,9 +43,9 @@ export default function ContactInfo () {
           height={28}
         />
         <div>
-          <h2 className='font-semibold text-lg'>Working Time</h2>
-          <p className='text-sm text-gray-700'>Monday–Friday: 9:00 – 22:00</p>
-          <p className='text-sm text-gray-700'>Saturday–Sunday: 9:00 – 21:00</p>
+          <h2 className='text-poppins-24-medium'>Working Time</h2>
+          <p className='text-poppins-16-regular text-gray-700'>Monday–Friday: 9:00 – 22:00</p>
+          <p className='text-poppins-16-regular text-gray-700'>Saturday–Sunday: 9:00 – 21:00</p>
         </div>
       </article>
     </section>

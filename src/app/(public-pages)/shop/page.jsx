@@ -8,7 +8,9 @@ export default function Shop () {
     <>
       <Header />
       <ProductToolbar />
-      <ProductList productsPerPage={16}/>
+      <div className='pt-[46px] pb-[85px]'>
+        <ProductList pigination={true} productsPerPage={16} />
+      </div>
       <USP />
     </>
   )

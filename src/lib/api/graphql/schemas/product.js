@@ -14,15 +14,17 @@ type Product {
 }
 
 extend type Query {
-    products: [Product]   # list untuk card
+    products(limit:Int, offset:Int): [Product]   # list untuk card
 }
 `
 
 export const productResolvers = {
   Query: {
-    products: async () => {
+    products: async (_, { limit, offset }) => {
       return await prisma.product
         .findMany({
+          skip: offset ?? 0,
+          take: limit ?? 0,
           select: {
             id: true,
             title: true,

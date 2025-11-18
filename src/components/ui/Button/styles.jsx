@@ -1,25 +1,24 @@
 // components/common/Button/styles.js
 import { cva } from 'class-variance-authority';
+import React from 'react';
 
 export const buttonVariants = cva(
-  'w-fit inline-flex items-center justify-center rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2',
+  'w-fit items-center justify-center',
   {
     variants: {
       variant: {
-        default: 'bg-blue-600 text-white hover:bg-blue-700',
-        outline: 'border border-blue-600 text-blue-600 hover:bg-blue-50',
-        ghost: 'text-blue-600 hover:bg-blue-100',
-        cart: 'text-blue-600 hover:bg-blue-100',
+        primary: 'bg-[#B88E2F] !text-white',
+        primaryWhite: 'bg-white !text-[#B88E2F]',
+        secondary: 'text-black border border-black rounded-[15px] text-poppins-20-regular',
+        pill: 'text-black border border-black',
+        icon: 'bg-[#B88E2F] p-3'
       },
       size: {
-        sm: 'px-3 py-1 text-sm',
-        md: 'px-4 py-2 text-base',
-        lg: 'px-6 py-3 text-lg ',
+
       },
     },
     defaultVariants: {
-      variant: 'default',
-      size: 'md',
+
     },
   }
 );
