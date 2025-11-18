@@ -9,7 +9,7 @@ export default function CategoryCard ({ title, image, slug }) {
       href={`/category/${slug}`}
       className='hover:scale-105 transition-transform'
     >
-      <div className='relative w-full h-[480px]'>
+      <div className='relative w-full h-30 md:h-80 lg:h-120'>
         <Image
           src={image}
           alt={title}

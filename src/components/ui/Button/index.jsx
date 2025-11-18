@@ -1,14 +1,14 @@
 import React from 'react';
 import { buttonVariants } from './styles';
-import clsx from 'clsx';
+import { cn } from '@/src/lib/utils/cn.js';
 
 export default function Button({ children, variant, size, className, ...props }) {
   return (
     <button
-      className={clsx(buttonVariants({ variant, size }), className)}
+      className={cn(buttonVariants({ variant, size }), className)}
       {...props}
     >
       {children}
     </button>
-  );
+  ); //
 }

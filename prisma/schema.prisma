@@ -7,85 +7,60 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-
-enum DiscountType {
-  PERCENTAGE
-  AMOUNT
-}
-
-
 model Product {
-  id               String @id
+  id               String         @id
   title            String
-  shortDescription String?         // buat card/listing
-  price            Decimal         @db.Decimal(10,2)
-  originalPrice    Decimal?        @db.Decimal(10,2)
-  image            String?         // thumbnail
-  discountType     DiscountType?   // % atau nominal
-  discountValue    Decimal?        @db.Decimal(10,2)
-  isNew            Boolean         @default(false)
-
-  // relasi
+  shortDescription String?
+  price            Decimal        @db.Decimal(10, 2)
+  originalPrice    Decimal?       @db.Decimal(10, 2)
+  image            String?
+  discountType     DiscountType?
+  discountValue    Decimal?       @db.Decimal(10, 2)
+  isNew            Boolean        @default(false)
   detail           ProductDetail?
-  variants         ProductVariant[]
 }
-
 
 model ProductDetail {
-  description       String?         // glimpse di detail page
-  longDescription   String?         // tab deskripsi panjang
-  images            String[]
-  size              String[]
-  SKU               String    @unique
-  category          String
-  tags              String[]
-  material          String?
-  warranty          String?
-  origin            String?
-  createdAt         DateTime  @default(now())
-
-  id                String   @id @default(uuid())
-  product           Product  @relation(fields: [id], references: [id])
-  reviews           Review[]
+  longDescription String?
+  description     String?
+  images          String[]
+  size            String[]
+  SKU             String   @unique
+  category        String
+  tags            String[]
+  material        String?
+  warranty        String?
+  origin          String?
+  createdAt       DateTime @default(now())
+  id              String   @id @default(uuid())
+  product         Product  @relation(fields: [id], references: [id])
+  reviews         Review[]
 
   @@map("ProductDetail")
 }
 
-
 model Review {
-  id              String         @id @default(uuid())
+  id              String        @id @default(uuid())
   rating          Int
   comment         String
-  createdAt       DateTime       @default(now())
-
-// relasi ke user
+  createdAt       DateTime      @default(now())
   userId          String
-  user            User           @relation(fields: [userId], references: [id])
-
-  // relasi ke product detail
   productDetailId String
-  productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
+  productDetail   ProductDetail @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
+  user            User          @relation(fields: [userId], references: [id])
 
   @@map("Reviews")
 }
 
-
 model User {
-  id       String    @id @default(uuid())
+  id       String   @id @default(uuid())
   name     String
-  email    String    @unique
-  password String    // hashed password
+  email    String   @unique
+  password String
   reviews  Review[]
 }
 
-
-model ProductVariant {
-  id          String   @id @default(uuid())
-  color       String?
-  size        String?
-  images      String[]
-  
-  productId   String
-  product     Product  @relation(fields: [productId], references: [id])
+enum DiscountType {
+  PERCENTAGE
+  AMOUNT
 }
