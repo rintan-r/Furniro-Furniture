@@ -1,0 +1,91 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+
+enum DiscountType {
+  PERCENTAGE
+  AMOUNT
+}
+
+
+model Product {
+  id               String @id
+  title            String
+  shortDescription String?         // buat card/listing
+  price            Decimal         @db.Decimal(10,2)
+  originalPrice    Decimal?        @db.Decimal(10,2)
+  image            String?         // thumbnail
+  discountType     DiscountType?   // % atau nominal
+  discountValue    Decimal?        @db.Decimal(10,2)
+  isNew            Boolean         @default(false)
+
+  // relasi
+  detail           ProductDetail?
+  variants         ProductVariant[]
+}
+
+
+model ProductDetail {
+  description       String?         // glimpse di detail page
+  longDescription   String?         // tab deskripsi panjang
+  images            String[]
+  size              String[]
+  SKU               String    @unique
+  category          String
+  tags              String[]
+  material          String?
+  warranty          String?
+  origin            String?
+  createdAt         DateTime  @default(now())
+
+  id                String   @id @default(uuid())
+  product           Product  @relation(fields: [id], references: [id], onDelete: Cascade)
+  reviews           Review[]
+
+  @@map("ProductDetail")
+}
+
+
+model ProductVariant {
+  id          String   @id @default(uuid())
+  color       String?
+  size        String?
+  images      String[]
+  
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
+}
+
+
+model Review {
+  id              String         @id @default(uuid())
+  rating          Int
+  comment         String
+  createdAt       DateTime       @default(now())
+
+// relasi ke user
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
+
+  // relasi ke product detail
+  productDetailId String
+  productDetail   ProductDetail  @relation(fields: [productDetailId], references: [id], onDelete: Cascade)
+
+  @@map("Reviews")
+}
+
+
+model User {
+  id       String    @id @default(uuid())
+  name     String
+  email    String    @unique
+  password String    // hashed password
+  reviews  Review[]
+}
