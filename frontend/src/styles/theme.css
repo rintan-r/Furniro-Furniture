@@ -1,0 +1,40 @@
+@theme {
+  /* Font Family */
+  --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+
+  /* Font Weight */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Font Size */
+  --text-body-xs: 12px;
+  --text-body-sm: 13px;
+  --text-body-md: 14px;
+  --text-body-lg: 15px;
+  --text-body-xl: 16px;
+  --text-body-2xl: 18px;
+  --text-body-3xl: 20px;
+  --text-body-4xl: 22px;
+  --text-body-5xl: 25px;
+  --text-body-6xl: 28px;
+  --text-body-7xl: 30px;
+  --text-body-8xl: 32px;
+  --text-body-9xl: 34px;  /* Montserrat logo */
+  --text-body-10xl: 36px;
+  --text-body-11xl: 40px;
+  --text-body-12xl: 42px; /* Hero text */
+  --text-body-13xl: 48px;
+  --text-body-14xl: 52px;
+
+  /* Line Height */
+  --leading-tight: 1.2;
+  --leading-120: 1.2;
+  --leading-126: 1.265;
+  --leading-150: 1.5;
+  --leading-relaxed: 1.6;
+  --leading-loose: 1.8;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "prisma:merge": "node prisma/mergeSchemas.js",
+    "prisma:generate": "npm run prisma:merge && npx prisma generate",
+    "prisma:migrate:dev": "npm run prisma:merge && npx prisma migrate dev --name split-schema",
+    "prisma:seed": "node prisma/seeds/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@prisma/client": "^6.14.0",
+    "@supabase/supabase-js": "^2.57.2",
+    "dotenv": "^17.0.0",
+    "graphql": "^16.11.0",
+    "prisma": "^6.14.0",
+    "superjson": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma-merge": "^0.2.0"
+  }
+}
