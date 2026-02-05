@@ -1,4 +1,3 @@
-// backend/server.js
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 import { typeDefs } from "./graphql/typeDefs.js";
@@ -10,13 +9,16 @@ dotenv.config();
 const PORT = process.env.PORT || 4000;
 
 async function startServer() {
-  const server = new ApolloServer({
-    typeDefs,
-    resolvers,
-  });
+  const server = new ApolloServer({ typeDefs, resolvers });
 
   const { url } = await startStandaloneServer(server, {
-    listen: { port: PORT },
+    listen: {
+      port: PORT,
+      host: "0.0.0.0", 
+    },
+    cors: {
+      origin: "*",
+    },
   });
 
   console.log(`🚀 Apollo Server ready at ${url}`);
