@@ -14,10 +14,14 @@ async function startServer() {
   const { url } = await startStandaloneServer(server, {
     listen: {
       port: PORT,
-      host: "0.0.0.0", 
+      host: "0.0.0.0",
     },
     cors: {
-      origin: "*",
+      origin: [
+        "http://localhost:3000",
+        "https://furniro-furniture-kohl.vercel.app/",
+      ],
+      credentials: true,
     },
   });
 
