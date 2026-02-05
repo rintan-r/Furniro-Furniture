@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js",
+    "start": "npm run prisma:generate && node server.js",
     "prisma:merge": "node prisma/mergeSchemas.js",
     "prisma:generate": "npm run prisma:merge && npx prisma generate",
-    "prisma:migrate:dev": "npm run prisma:merge && npx prisma migrate dev --name split-schema",
+    "prisma:migrate:deploy": "npm run prisma:merge && npx prisma migrate deploy",
     "prisma:seed": "node prisma/seeds/index.js"
   },
   "dependencies": {
