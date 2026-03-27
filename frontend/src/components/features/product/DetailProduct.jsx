@@ -34,15 +34,15 @@ const GET_PRODUCT_DETAIL = gql`
 const formatPrice = price => {
   return price !== 0
     ? `Rp ${price.toLocaleString('en-US', {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2
-      })}`
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    })}`
     : 'Price not available, contact seller'
 }
 
 const colorOptions = ['#816DFA', '#000000', '#B88E2F']
 
-export default function DetailProduct ({ id }) {
+export default function DetailProduct({ id }) {
   const [selectedSize, setSelectedSize] = useState(null)
   const [selectedColor, setSelectedColor] = useState('#3b82f6')
   const [activeIndex, setActiveIndex] = useState(0)
@@ -146,11 +146,10 @@ export default function DetailProduct ({ id }) {
                   key={index}
                   onClick={() => toggleSize(size)}
                   className={`px-3 py-1 rounded-[5px] border transition
-            ${
-              selectedSize === size
-                ? 'bg-[#B88E2F] text-white border-transparent'
-                : 'bg-[#F9F1E7] text-black border-transparent'
-            }`}
+            ${selectedSize === size
+                      ? 'bg-[#B88E2F] text-white border-transparent'
+                      : 'bg-[#F9F1E7] text-black border-transparent'
+                    }`}
                 >
                   {size}
                 </button>
@@ -165,11 +164,10 @@ export default function DetailProduct ({ id }) {
                   key={index}
                   onClick={() => setSelectedColor(color)}
                   className={`w-8 h-8 rounded-full border-2 transition
-            ${
-              selectedColor === color
-                ? 'border-[#B88E2F] scale-110'
-                : 'border-transparent'
-            }`}
+            ${selectedColor === color
+                      ? 'border-[#B88E2F] scale-110'
+                      : 'border-transparent'
+                    }`}
                   style={{ backgroundColor: color }}
                 />
               ))}
@@ -179,7 +177,9 @@ export default function DetailProduct ({ id }) {
             <QuantityInput value={qty} onChange={setQty} min={1} max={10} />
             <div className='flex flex-row gap-[10px] items-center'>
               <AddToCartButton product={product}>Checkout</AddToCartButton>
-              <Button
+              {/* 
+              
+                          <Button
                 variant='secondary'
                 className='pl-[47px] pr-[46px] py-[17px] flex flex-row items-center gap-[10px]'
               >
@@ -190,7 +190,10 @@ export default function DetailProduct ({ id }) {
                   height={35}
                 />
                 Compare
-              </Button>
+              </Button>  
+              
+              */}
+
             </div>
           </div>
           <div className='w-full h-px bg-gray-300 mt-15 mb-[41px]'></div>
